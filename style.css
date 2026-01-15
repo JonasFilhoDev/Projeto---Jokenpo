@@ -95,3 +95,16 @@ footer {
 .result {
     font-size: 30px;
 }
+
+@media screen and (max-width: 600px) {
+    .buttons {
+        gap: 20px;
+    }
+    button{
+        font-size: 30px;
+        padding: 8px;
+    }
+    #reset-button {
+        width: 100%;
+    }
+}
